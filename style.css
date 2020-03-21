@@ -6,15 +6,16 @@ p {
     font-size: 0.85em;
 }
 svg {
-    background: #efefef;
+    /* background: #efefef; */
+    background: rgb(248, 248, 250)
 }
 .country {
-    fill: #ccc;
+    fill: rgb(229, 230, 230);
     stroke: #333;
     stroke-width: 0.5;
 }
 .selected {
-    fill: yellow;
+    fill: #ccc;
 }
 .city-label{
     font-size: 10px;
