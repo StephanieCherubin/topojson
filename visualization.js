@@ -20,6 +20,7 @@
         
     var projection = d3.geoMercator()
         .translate([ width / 2, height /2 ])
+        .center([0,20]) 
         .scale(100)
     
     var path = d3.geoPath()
